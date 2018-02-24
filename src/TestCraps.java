@@ -16,12 +16,11 @@ import java.util.ArrayList;
  * changes of behavior *without* needing to change much code.
  * <p/>
  * 
- * @author Eric Level
+ * @author Brett Branan
  * 
  */
 public class TestCraps
 {
-	public static final int NUM_TO_PLAY = 1000000;
 
 	/**
 	 * CrapsGame represents a single game of craps, which contains a single Dice
@@ -127,6 +126,8 @@ public class TestCraps
 	 * We turn off console output by CrapsGame.showOutput = false, so that the
 	 * simulation runs more quickly, then turn it back on to report the results
 	 */
+
+	public static final int NUM_TO_PLAY = 1000000;
 
 	public static void main(String[] args)
 	{
